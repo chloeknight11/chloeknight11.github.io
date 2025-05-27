@@ -14,16 +14,13 @@
   font-size: 18px;
   display: inline-block;
   cursor: pointer;
-  border: 2px solid #B8860B;             /* DarkGoldenRod */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #B8860B;
   min-width: 120px;
   text-align: center;
 }
 
 .center-links a:hover {
-  background-color: #CDA66B;             /* slightly darker BurlyWood */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background-color: #CDA66B;
 }
 
 @media (max-width: 600px) {

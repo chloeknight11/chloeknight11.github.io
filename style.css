@@ -6,15 +6,19 @@
 .center-links a {
   background-color: #CDA66B;
   color: BurlyWood;
-  padding: 12px 24px;
+   padding: 14px 28px;
   margin: 8px;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 12px;
   font-family: sans-serif;
   font-size: 18px;
   display: inline-block;
-  transition: background-color 0.3s ease;
-  min-width: 100px;
+  cursor: pointer;
+  border: 2px solid #B8860B;             /* DarkGoldenRod */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  min-width: 120px;
+  text-align: center;
 }
 
 @media (max-width: 600px) {

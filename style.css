@@ -6,7 +6,7 @@
 .center-links a {
   background-color: #CDA66B;
   color: White;
-   padding: 14px 28px;
+  padding: 14px 28px;
   margin: 8px;
   text-decoration: none;
   border-radius: 12px;
@@ -17,10 +17,13 @@
   border: 2px solid #B8860B;
   min-width: 120px;
   text-align: center;
+  font-weight: bold;
 }
 
-.center-links a {
-  font-weight: bold;
+/* Add white outline on keyboard focus */
+.center-links a:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
 }
 
 .center-links a:hover {

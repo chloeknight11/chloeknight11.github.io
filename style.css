@@ -3,7 +3,6 @@
   margin-top: 50px;
 }
 
-/* Style the links as buttons */
 .center-links a {
   background-color: BurlyWood
   color: white;
@@ -18,12 +17,6 @@
   min-width: 100px;
 }
 
-/* Hover effect */
-.center-links a:hover {
-  background-color: #315f7d;
-}
-
-/* Responsive: stack links vertically on small screens */
 @media (max-width: 600px) {
   .center-links a {
     display: block;      /* make links full width */

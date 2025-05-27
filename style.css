@@ -5,18 +5,22 @@
 
 .center-links a {
   background-color: #CDA66B;
-  color: Black;
+  color: White;
    padding: 14px 28px;
   margin: 8px;
   text-decoration: none;
   border-radius: 12px;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 26px;
   display: inline-block;
   cursor: pointer;
   border: 2px solid #B8860B;
   min-width: 120px;
   text-align: center;
+}
+
+.center-links a {
+  font-weight: bold;
 }
 
 .center-links a:hover {

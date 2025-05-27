@@ -4,7 +4,7 @@
 }
 
 .center-links a {
-  background-color: BurlyWood
+  background-color: BurlyWood;
   color: white;
   padding: 12px 24px;
   margin: 8px;
@@ -19,9 +19,9 @@
 
 @media (max-width: 600px) {
   .center-links a {
-    display: block;      /* make links full width */
-    margin: 10px auto;   /* center them with margin */
-    width: 80%;          /* take 80% width on small screens */
+    display: block;     
+    margin: 10px auto; 
+    width: 80%;        
     box-sizing: border-box;
   }
 }
